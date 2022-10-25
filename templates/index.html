@@ -63,7 +63,7 @@
       <div
         class="container-fluid container-xl d-flex align-items-center justify-content-between"
       >
-        <a href="index.html" class="logo d-flex align-items-center">
+        <a href="{% url 'home' %}" class="logo d-flex align-items-center">
           <img src="assets/img/logo.png" alt="" />
           <span>Land Surveying.com</span>
         </a>
@@ -74,13 +74,14 @@
             <li><a class="nav-link scrollto" href="#about">About</a></li>
             <li><a class="nav-link scrollto" href="#services">Services</a></li>
 
-            <!-- <li class="dropdown">
+            <li class="dropdown">
               <a href="#"
-                ><span>Drop Down</span> <i class="bi bi-chevron-down"></i
+                ><span>Languange</span> <i class="bi bi-chevron-down"></i
               ></a>
               <ul>
-                <li><a href="#">Drop Down 1</a></li>
-                <li class="dropdown">
+                <li><a href="{% url 'home' %}">Telugu</a></li>
+                <li><a href="{% url 'home' %}">English</a></li>
+                <!-- <li class="dropdown">
                   <a href="#"
                     ><span>Deep Drop Down</span>
                     <i class="bi bi-chevron-right"></i
@@ -98,6 +99,7 @@
                 <li><a href="#">Drop Down 4</a></li>
               </ul>
             </li> -->
+            </ul>
             <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
             <li>
               <a class="getstarted scrollto" href="{% url 'login' %}">Login</a>
@@ -131,18 +133,18 @@
         <div class="row">
           <div class="col-lg-6 d-flex flex-column justify-content-center">
             <h1 data-aos="fade-up">
-              We offer modern solutions for growing your business
-            </h1>
-            <h2 data-aos="fade-up" data-aos-delay="400">
-              We are team of talented designers making websites with Bootstrap
-            </h2>
+               Land is the one assert which makes you stay secure</h1> 
+               <h1 data-aos="fade-up">at any time and any situation.</h1>
+            <!-- <h2 data-aos="fade-up" data-aos-delay="400">
+             Land is the one assert which makes you stay secure at any time and any situation.
+            </h2> -->
             <div data-aos="fade-up" data-aos-delay="600">
               <div class="text-center text-lg-start">
                 <a
                   href="#about"
                   class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center"
                 >
-                  <span>Get Started</span>
+                  <span>Look our Services</span>
                   <i class="bi bi-arrow-right"></i>
                 </a>
               </div>
@@ -215,7 +217,7 @@
       <!-- End Values Section -->
 
       <!-- ======= Counts Section ======= -->
-      <section id="counts" class="counts">
+      <!-- <section id="counts" class="counts">
         <div class="container" data-aos="fade-up">
           <div class="row gy-4">
             <div class="col-lg-3 col-md-6">
@@ -239,7 +241,7 @@
                 <div>
                   <span
                     data-purecounter-start="0"
-                    data-purecounter-end="521"
+                    data-purecounter-end="200"
                     data-purecounter-duration="1"
                     class="purecounter"
                   ></span>
@@ -279,11 +281,11 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
       <!-- End Counts Section -->
 
       <!-- ======= Features Section ======= -->
-      >
+      
       <!-- End Features Section -->
 
       <!-- ======= Services Section ======= -->
@@ -291,7 +293,8 @@
         <div class="container" data-aos="fade-up">
           <header class="section-header">
             <h2>Services</h2>
-            <p>Veritatis et dolores facere numquam et praesentium</p>
+            <p>We offer many unique and
+               customised services to our clients</p>
           </header>
 
           <div class="row gy-4">
@@ -302,15 +305,15 @@
             >
               <div class="service-box blue">
                 <i class="ri-discuss-line icon"></i>
-                <h3>Nesciunt Mete</h3>
-                <p>
+                <h3>Agricultutal Land Surveying</h3>
+                <!-- <p>
                   Provident nihil minus qui consequatur non omnis maiores. Eos
                   accusantium minus dolores iure perferendis tempore et
                   consequatur.
-                </p>
-                <a href="#" class="read-more"
+                </p> -->
+                <!-- <a href="#" class="read-more"
                   ><span>Read More</span> <i class="bi bi-arrow-right"></i
-                ></a>
+                ></a> -->
               </div>
             </div>
 
@@ -321,14 +324,15 @@
             >
               <div class="service-box orange">
                 <i class="ri-discuss-line icon"></i>
-                <h3>Eosle Commodi</h3>
-                <p>
+                <h3>Plot Surveying</h3>
+                <!-- <p>
                   Ut autem aut autem non a. Sint sint sit facilis nam iusto
                   sint. Libero corrupti neque eum hic non ut nesciunt dolorem.
-                </p>
+                  <!-- </p>
                 <a href="#" class="read-more"
                   ><span>Read More</span> <i class="bi bi-arrow-right"></i
-                ></a>
+                ></a> -->
+                </p>
               </div>
             </div>
 
@@ -339,14 +343,14 @@
             >
               <div class="service-box green">
                 <i class="ri-discuss-line icon"></i>
-                <h3>Ledo Markt</h3>
-                <p>
+                <h3>Venture Development</h3>
+                <!-- <p>
                   Ut excepturi voluptatem nisi sed. Quidem fuga consequatur.
                   Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.
-                </p>
-                <a href="#" class="read-more"
+                </p> -->
+                <!-- <a href="#" class="read-more"
                   ><span>Read More</span> <i class="bi bi-arrow-right"></i
-                ></a>
+                ></a> -->
               </div>
             </div>
 
@@ -357,14 +361,14 @@
             >
               <div class="service-box red">
                 <i class="ri-discuss-line icon"></i>
-                <h3>Asperiores Commodi</h3>
-                <p>
+                <h3>Old House Planing</h3>
+                <!-- <p>
                   Non et temporibus minus omnis sed dolor esse consequatur.
                   Cupiditate sed error ea fuga sit provident adipisci neque.
-                </p>
-                <a href="#" class="read-more"
+                </p> -->
+                <!-- <a href="#" class="read-more"
                   ><span>Read More</span> <i class="bi bi-arrow-right"></i
-                ></a>
+                ></a> -->
               </div>
             </div>
 
@@ -375,14 +379,14 @@
             >
               <div class="service-box purple">
                 <i class="ri-discuss-line icon"></i>
-                <h3>Velit Doloremque.</h3>
-                <p>
+                <h3>Land Partition</h3>
+                <!-- <p>
                   Cumque et suscipit saepe. Est maiores autem enim facilis ut
                   aut ipsam corporis aut. Sed animi at autem alias eius labore.
-                </p>
-                <a href="#" class="read-more"
+                </p> -->
+                <!-- <a href="#" class="read-more"
                   ><span>Read More</span> <i class="bi bi-arrow-right"></i
-                ></a>
+                ></a> -->
               </div>
             </div>
 
@@ -393,14 +397,14 @@
             >
               <div class="service-box pink">
                 <i class="ri-discuss-line icon"></i>
-                <h3>Dolori Architecto</h3>
-                <p>
+                <h3>Best Buy Locations </h3>
+                <!-- <p>
                   Hic molestias ea quibusdam eos. Fugiat enim doloremque aut
                   neque non et debitis iure. Corrupti recusandae ducimus enim.
-                </p>
-                <a href="#" class="read-more"
+                </p> -->
+                <!-- <a href="#" class="read-more"
                   ><span>Read More</span> <i class="bi bi-arrow-right"></i
-                ></a>
+                ></a> -->
               </div>
             </div>
           </div>
@@ -409,7 +413,7 @@
       <!-- End Services Section -->
 
       <!-- ======= Pricing Section ======= -->
-      <section id="pricing" class="pricing">
+      <!-- <section id="pricing" class="pricing">
         <div class="container" data-aos="fade-up">
           <header class="section-header">
             <h2>Pricing</h2>
@@ -515,7 +519,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
       <!-- End Pricing Section -->
 
       <!-- End F.A.Q Section -->
